@@ -1,0 +1,20 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "planthire",
+    "description": "UK plant-hire marketplace \u2014 excavators, dumpers, telehandlers.",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://planthire.ai"
+      }
+    ],
+    "capabilities": [
+      "planthire-ai-mcp",
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}
