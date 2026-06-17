@@ -1,0 +1,14 @@
+{
+  "name": "planthire.ai",
+  "title": "Plant Hire AI — Equipment Rental Automation",
+  "description": "AI-powered plant hire matching, availability forecasting, and dynamic pricing for construction equipment.",
+  "cluster": "INDUSTRY",
+  "servers": [
+        { "id": "hire-mcp.sov3.meok.ai", "url": "https://hire-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "availability-mcp.sov3.meok.ai", "url": "https://availability-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "pricing-mcp.sov3.meok.ai", "url": "https://pricing-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" }
+  ],
+  "registrar": "https://mcp-registry.sov3.meok.ai/register",
+  "protocol": "https://openMCP.ai/protocol",
+  "$schema": "https://openMCP.ai/schemas/mcp-server-list.json"
+}

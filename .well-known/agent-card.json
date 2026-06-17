@@ -1,0 +1,35 @@
+{
+  "name": "planthire.ai",
+  "title": "Plant Hire AI — Equipment Rental Automation",
+  "description": "AI-powered plant hire matching, availability forecasting, and dynamic pricing for construction equipment.",
+  "cluster": "INDUSTRY",
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://planthire.ai/",
+  "agent": {
+    "protocol": "model-context-protocol",
+    "version": "1.0",
+    "mcp_endpoint": "https://mcp.planthire.ai/v1",
+    "capabilities": ["reasoning", "tool_use", "context_management", "multi_agent_coordination"],
+    "authentication": {
+      "scheme": "oauth2",
+      "token_url": "https://auth.sov3.meok.ai/oauth/token",
+      "authorization_url": "https://auth.sov3.meok.ai/oauth/authorize",
+      "scopes": ["agent:read", "agent:write", "mcp:invoke"]
+    },
+    "identity": {
+      "did": "did:meok:planthire.ai",
+      "verification_method": "did:meok:planthire.ai#keys-1"
+    }
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "MEOK Empire",
+    "url": "https://meok.ai/"
+  },
+  "clusterOf": {
+    "@type": "Organization",
+    "name": "INDUSTRY",
+    "url": "https://planthire.ai/"
+  }
+}
